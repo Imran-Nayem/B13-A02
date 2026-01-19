@@ -102,3 +102,124 @@
     gap:5px;
 
 }
+.section-2{
+    border:2px solid gold;
+    align-items: center;
+    text-align: center;
+    color:white;
+    padding: 50px 20px;
+    background-color: rgba(26, 11, 46, 1);
+
+}
+hr{
+    width: 1200px;
+    border: 1px solid rgba(196, 192, 192, 0.233);
+    margin: 20px auto;
+}
+.reaction,.reaction-text{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top: 30px;
+    color:green;
+}
+.reaction-text{
+    color:white;
+}
+.three-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    gap:20px;
+    border:2px red;
+}
+.card-section{
+    border:2px solid orchid;
+    color :white;
+    background-color:  rgba(26, 11, 46, 1);
+    padding: 20px 50px 10px 100px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 576px) {
+
+    .navbar{
+        flex-direction: column;
+        height: auto;
+        gap: 10px;
+    }
+
+    .navbar ul{
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .banner{
+        height: auto;
+        padding: 50px 20px;
+    }
+
+    .banner-circle-image{
+        position: static;
+        gap: 20px;
+        text-align: center;
+    }
+
+    .banner-image{
+        position: static;
+        width: 250px;
+        margin: auto;
+    }
+
+    .banner-button{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #bb1, #bb2{
+        width: 100%;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+
+    .navbar{
+        padding: 1rem;
+    }
+
+    .banner{
+        height: auto;
+        padding: 80px 40px;
+    }
+
+    .banner-circle-image{
+        top: 20%;
+        left: 30%;
+        gap: 30px;
+    }
+
+    .banner-image{
+        top: 45%;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 300px;
+    }
+
+    .banner-button{
+        gap: 15px;
+    }
+}
+
