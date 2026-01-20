@@ -34,7 +34,7 @@
     background-image: url(./assets/hero-bg.png);
     width:100%;
     height:760px;
-    border:2px solid green;
+    /* border:2px solid green; */
 }
 /* .banner{
     background-image: url(./assets/hero-circle.png);
@@ -103,7 +103,7 @@
 
 }
 .section-2{
-    border:2px solid gold;
+    /* border:2px solid gold; */
     align-items: center;
     text-align: center;
     color:white;
@@ -128,7 +128,7 @@ hr{
 .grid-section{
     
     /* padding: 40px 70px 100px 50px; */
-    border:2px solid rgb(21, 214, 11);
+    /* border:2px solid rgb(21, 214, 11); */
     background-color:  rgb(18, 1, 40);
     
 }
@@ -196,7 +196,7 @@ hr{
 .card-with-iframe{
     width:100%;
     height: 1000px;
-    border:5px solid rgb(211, 42, 4);
+    /* border:5px solid rgb(211, 42, 4); */
     background-color:  rgba(26, 11, 46, 1);
 }
 .card-section{
@@ -270,7 +270,7 @@ hr{
     
     padding: 100px  ;
 
-    border:3px solid orange;
+    /* border:3px solid orange; */
     
     
 }
