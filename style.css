@@ -119,25 +119,71 @@ hr{
 .reaction,.reaction-text{
     display: flex;
     justify-content:space-evenly;
-    margin-top: 30px;
+    margin-top: 15px;
     color:green;
 }
 .reaction-text{
     color:white;
 }
-.three-cards{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-    gap:20px;
-    border:2px red;
+.card-with-iframe{
+    width:100%;
+    height: 1276px;
+    border:5px solid rgb(4, 204, 211);
+    background-color:  rgba(26, 11, 46, 1);
 }
 .card-section{
     border:2px solid orchid;
     color :white;
     background-color:  rgba(26, 11, 46, 1);
     padding: 20px 50px 10px 100px;
-    
+    width: 100%
+    height: 1260px;
+   
+}
+.three-cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 0px;
+    gap:20px;
+    border:2px solid red;
+     margin-bottom:50px;
+    /* flex-wrap: wrap; */
+}
+.card{
+    border :2px solid rgb(32, 236, 9);
+    border-radius: 15px;
+    padding:5px;
+}
+.card-text{
+    margin-top:10px;
+    text-align: left;
+    align-items: center;
+    margin-left: 10px;
+    margin-right: 80px;
+}
+
+.card-text h4{
+    margin-top:10px;
+    color:green;
+
+}
+.challenging-part{
+    background-color: rgba(26, 11, 46, 1);
+    border:2px solid orange;
+    text-align: center;
+    padding: 50px 20px;
+    border:3px solid yellow;
+}
+.challange-heading{
+    color:white;
+    margin-bottom: 20px;
+}
+.challenging-content{
+    color:white;
+    border:2px solid blue;
+    padding: 50px 170px;
+    display:flex;
+    gap:100px;
 }
 
 
