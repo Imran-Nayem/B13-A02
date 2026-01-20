@@ -127,8 +127,8 @@ hr{
 }
 .card-with-iframe{
     width:100%;
-    height: 1276px;
-    border:5px solid rgb(4, 204, 211);
+    height: 1000px;
+    border:5px solid rgb(211, 42, 4);
     background-color:  rgba(26, 11, 46, 1);
 }
 .card-section{
@@ -184,6 +184,23 @@ hr{
     padding: 50px 170px;
     display:flex;
     gap:100px;
+}
+.footer{
+    background-color: rgb(58, 19, 108);
+    color:white;
+    text-align: center;
+    padding: 20px;
+    border-top: 2px solid gray;
+    border:3px solid springgreen;
+
+    /* margin:30px 30px 40px 40px; */
+}
+.footer ul{
+    border:3px solid purple;
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 
